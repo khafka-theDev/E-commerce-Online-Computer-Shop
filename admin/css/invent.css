@@ -1,0 +1,398 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container11 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+button, .btns button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #088178;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .btns button:hover {
+    background-color: #066c60;
+}
+
+/* Form Container */
+.form-container, .search-container {
+    width: 100%;
+    max-width: 800px; /* Restrict maximum width for better readability */
+    margin: 20px auto; /* Center align the form container */
+    padding: 25px; /* Increased padding for spacious layout */
+    background-color: #ffffff; /* Clean white background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow for depth */
+    border-radius: 12px; /* Softer border radius */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+.form-container:hover, .search-container:hover {
+    transform: translateY(-5px); /* Slight hover lift */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.form-container label, .search-container label {
+    font-size: 18px; /* Slightly larger font for labels */
+    font-weight: bold;
+    margin-bottom: 10px; /* More spacing below labels */
+    color: #333; /* Darker text for better contrast */
+    display: block; /* Ensure labels are always on their own line */
+}
+
+.form-container input, .search-container input,
+.form-container select, .search-container select,
+.form-container textarea {
+    width: 100%;
+    padding: 12px; /* Increased padding for a more modern look */
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ddd; /* Light border for minimalistic design */
+    border-radius: 8px; /* Softer, more modern corners */
+    box-sizing: border-box;
+    background-color: #f9f9f9; /* Light gray background for input fields */
+    color: #333; /* Darker text for input */
+    transition: border-color 0.3s ease, background-color 0.3s ease; /* Smooth interaction */
+}
+
+.form-container input:focus, .search-container input:focus,
+.form-container select:focus, .search-container select:focus,
+.form-container textarea:focus {
+    border-color: #088178; /* Highlighted border color on focus */
+    background-color: #ffffff; /* Slightly brighter background */
+    outline: none; /* Remove default outline */
+}
+
+textarea {
+    resize: vertical; /* Allow resizing vertically */
+    height: 100px; /* Default height */
+}
+
+.form-container button {
+    display: inline-block;
+    padding: 12px 20px; /* Well-sized button */
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background-color: #088178; /* Primary button color */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.form-container button:hover {
+    background-color: #06665a; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly larger on hover */
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    white-space: nowrap;
+}
+
+th {
+    background-color: #f4f4f4;
+    color: #333;
+    position: sticky;
+    top: 0;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+td img {
+    max-width: 60px;
+    max-height: 60px;
+    margin-right: 10px;
+}
+
+#product-list {
+    overflow-x: auto;
+    overflow-y: auto;
+    max-height: 500px;
+}
+
+/* Order and User Management Containers */
+.order-container, .user-container {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.order-container h2, .user-container h2 {
+    margin-top: 0;
+    color: #555;
+}
+
+/* Button Styling */
+button#delete-btn, button#update-btn, button#insert-btn,
+button#search-btn, button#all-btn, button#delivered-btn,
+button#undelivered-btn, button#up-btn {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+button#delete-btn:hover, button#update-btn:hover,
+button#insert-btn:hover, button#search-btn:hover {
+    background-color: #3e8e41;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container11 {
+        padding: 10px;
+    }
+
+    .form-container, .search-container {
+        padding: 10px;
+    }
+
+    th, td {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.container input,
+.container textarea,
+.container button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container button {
+    background-color: #088178;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.container button:hover {
+    background-color: #06665a;
+}
+
+/* Container Styling */
+.container2 {
+    margin: 30px auto; /* Slightly increased margin for spacing */
+    padding: 25px; /* Increased padding for a more open layout */
+    background-color: #ffffff; /* Clean white background */
+    border-radius: 12px; /* Softer corners for modern design */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow for depth */
+    overflow-x: auto;
+    max-width: 1200px; /* Restrict container width for better readability */
+}
+
+.container2 h2 {
+    text-align: center;
+    font-size: 28px; /* Larger font size for headings */
+    font-weight: bold; /* Emphasize the heading */
+    color: #222; /* Darker shade for better contrast */
+    margin-bottom: 25px;
+    text-transform: uppercase; /* Make headings uppercase for emphasis */
+    letter-spacing: 1px; /* Add slight spacing for better readability */
+}
+
+/* Table Styling */
+.container2 table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fdfdfd; /* Slightly off-white for subtle contrast */
+    border-radius: 12px;
+    overflow: hidden; /* Ensure rounded corners for the table */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+.container2 table th,
+.container2 table td {
+    text-align: left;
+    padding: 15px; /* Comfortable padding for better usability */
+    border-bottom: 1px solid #e0e0e0; /* Subtle border for row separation */
+    vertical-align: top;
+}
+
+.container2 table th {
+    background-color: #088178; /* Use primary color for header */
+    color: #ffffff; /* Contrast text color */
+    font-size: 16px; /* Slightly larger font for headers */
+    font-weight: bold;
+    text-align: center;
+}
+
+.container2 table td {
+    font-size: 14px;
+    color: #444; /* Neutral color for text */
+    word-wrap: break-word; /* Prevent content overflow */
+}
+
+/* Image Styling */
+.container2 table td img {
+    display: block;
+    margin: 0 auto;
+    max-width: 70px; /* Adjusted image size */
+    max-height: 70px;
+    border-radius: 6px; /* Rounded image corners */
+    border: 1px solid #ccc; /* Subtle border around images */
+}
+
+/* Alternate Row Coloring */
+.container2 table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray for alternate rows */
+}
+
+.container2 table tr:hover {
+    background-color: #f4f4f4; /* Highlighted row on hover */
+}
+
+/* Actions Column: Inline Form Styling */
+.container2 table td form {
+    display: flex;
+    flex-direction: column; /* Stack all elements vertically */
+    gap: 12px; /* Space between form elements */
+    align-items: stretch; /* Ensure elements span the column width */
+    justify-content: flex-start; /* Align items to the top of the column */
+}
+
+.container2 table td form input,
+.container2 table td form textarea {
+    width: 100%; /* Fit within the column */
+    padding: 10px; /* Comfortable padding */
+    font-size: 14px;
+    border: 1px solid #ccc; /* Subtle border */
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: #f8f8f8; /* Light background for inputs */
+    color: #444; /* Neutral text color */
+}
+
+.container2 table td form textarea {
+    resize: vertical; /* Allow vertical resizing only */
+    min-height: 80px; /* Default textarea height */
+}
+
+.container2 table td form button {
+    padding: 10px 15px; /* Adjusted button size */
+    border: none;
+    border-radius: 6px;
+    background-color: #088178; /* Primary button color */
+    color: #ffffff; /* Contrast text color */
+    font-size: 14px;
+    font-weight: bold; /* Highlight button text */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.container2 table td form button:hover {
+    background-color: #06665a; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Delete Button Styling */
+.container2 table td a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: #e63946; /* Red for delete */
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.container2 table td a:hover {
+    background-color: #c81d2c; /* Darker red on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container2 {
+        padding: 15px;
+    }
+
+    .container2 table th, 
+    .container2 table td {
+        padding: 10px;
+        font-size: 14px; /* Slightly smaller font for compact view */
+    }
+
+    .container2 table td form input,
+    .container2 table td form textarea,
+    .container2 table td form button {
+        font-size: 12px; /* Adjust font size for inputs and buttons */
+    }
+
+    .container2 table td a {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+}

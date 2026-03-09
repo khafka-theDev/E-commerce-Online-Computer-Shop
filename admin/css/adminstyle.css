@@ -1,0 +1,168 @@
+/* Admin Panel CSS */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Header Section */
+#header {
+    background: rgb(28, 30, 35);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header .logo {
+    height: 50px;
+}
+
+#header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#header ul li {
+    margin: 0 15px;
+}
+
+#header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#header ul li a:hover {
+    color: #ffcccb;
+}
+
+/* Admin Dashboard */
+.admin-dashboard {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.admin-dashboard h1 {
+    color: maroon;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.stat-item {
+    background: #00fe94; /* Mellow red */
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+    border: 2px solid #008f5c; /* Add border color */
+}
+
+.stat-item h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.stat-item p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    margin-bottom: 200px;
+    font-size: 1rem;
+    background-color: white;
+}
+
+table thead {
+    background: black;
+    color: white;
+}
+
+table th,
+table td {
+    text-align: left;
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table a {
+    color: rgb(249, 245, 245);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+table a:hover {
+    color: #f8f7f7;
+}
+
+/* Buttons */
+a.edit {
+    background-color: #007bff; /* Blue for Edit */
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+a.edit:hover {
+    background-color: #0056b3; /* Darker blue for hover */
+}
+
+a.delete {
+    background-color: #dc3545; /* Red for Delete */
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+a.delete:hover {
+    background-color: #a71d2a; /* Darker red for hover */
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
