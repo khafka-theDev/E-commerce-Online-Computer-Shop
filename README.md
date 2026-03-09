@@ -1,7 +1,7 @@
 # E-commerce-Online-Computer-Shop
 A final project for our programming class back in Semester 4 for our php programming. An e-commerce online computer shop with perks such as membership and point that can be use for claiming free gift using the point.
 
-Feel free to visit the website that I hosted on infinityfree here: ahchongitshop.free.nf
+Feel free to visit the website that I hosted on infinityfree here: ahchongitshop.free.nf (copy and paste the link, dont worry it is safe)
 
 ![Landing page](https://github.com/user-attachments/assets/a103a003-4934-4c9d-ad8c-a02d61ed0724)
 ![Shop page](https://github.com/user-attachments/assets/2bc49487-db20-4a48-b7ee-a42f8026eb4f)
