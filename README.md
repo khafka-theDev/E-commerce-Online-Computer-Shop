@@ -3,8 +3,17 @@ A final project for our programming class back in Semester 4 for our php program
 
 Feel free to visit the website that I hosted on infinityfree.
 
+Landing page
 ![Landing page](https://github.com/user-attachments/assets/a103a003-4934-4c9d-ad8c-a02d61ed0724)
+
+Shop page
 ![Shop page](https://github.com/user-attachments/assets/2bc49487-db20-4a48-b7ee-a42f8026eb4f)
+
+About page
 ![About us page](https://github.com/user-attachments/assets/28385d0f-1a63-4799-99ac-6c569f1a15ba)
+
+Contact page
 ![Contact page](https://github.com/user-attachments/assets/fc2a8391-0986-408e-8329-3ba2126d871f)
+
+Login page
 ![Login page](https://github.com/user-attachments/assets/d1b2e2ba-30e6-40c7-a03f-395651a7356b)
